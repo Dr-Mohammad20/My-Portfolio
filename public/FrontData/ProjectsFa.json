@@ -1,0 +1,172 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "name": "BioGraphy",
+      "img": [
+        "/Project/BioGraphy/BioGraphy01.png",
+        "/Project/BioGraphy/BioGraphy02.png",
+        "/Project/BioGraphy/BioGraphy03.png",
+        "/Project/BioGraphy/BioGraphy04.png",
+        "/Project/BioGraphy/BioGraphy05.png",
+        "/Project/BioGraphy/BioGraphy06.png",
+        "/Project/BioGraphy/BioGraphy07.png",
+        "/Project/BioGraphy/BioGraphy08.png"
+      ],
+      "vid": "/Project/BioGraphy/BioGraphy.mp4",
+      "Title": "بیوگرافی",
+      "description": "این یک پروژه برای نشان دادن رزومه و دوره های آموزشی یک استاد است که دارای پنل ادمین برای مدیریت کاربران و دوره ها می باشد . در سمت فرانت اند با ری اکت و در سمت بک اند با نود جی اس انجام شده . بانک اطلاعاتی آن مای اس کیو ال است . همچنین برای کنترل ورود یوزر از کانتکست استفاده شده است. ضمنا برای مسیر دهی بین صفحات از ری اکت روتر دام استفاده شده است .",
+      "packages": [
+        "React.js",
+        "MySQL",
+        "Node.js",
+        "Express.js",
+        "Axios",
+        "React-Context",
+        "React-Router-Dom",
+        "Responsive"
+      ],
+      "link": "https://dr-nahidmomeni.iran.liara.run"
+    },
+    {
+      "id": "2",
+      "name": "CarAudioShop",
+      "img": [
+        "/Project/CarAudioShop/CarAudioShop01.png",
+        "/Project/CarAudioShop/CarAudioShop02.png",
+        "/Project/CarAudioShop/CarAudioShop03.png",
+        "/Project/CarAudioShop/CarAudioShop04.png",
+        "/Project/CarAudioShop/CarAudioShop05.png",
+        "/Project/CarAudioShop/CarAudioShop06.png",
+        "/Project/CarAudioShop/CarAudioShop07.png",
+        "/Project/CarAudioShop/CarAudioShop08.png",
+        "/Project/CarAudioShop/CarAudioShop09.png"
+      ],
+      "vid": "/Project/CarAudioShop/CarAudioShop.mp4",
+      "Title": "فروشگاه محصولات صوتی و تصویری خودرو",
+      "description": "این یک پروژه برای یک فروشگاه محصولات صوتی و تصویری خودرو است . این فروشگاه فروش اینترنتی نداشته و فقط به معرفی محصولات موجود خود می پردازد . در سمت فرانت اند از نکست جی اس و در سمت بک اند از گراف کیو ال استفاده شده است . برای مقایسه محصولات با یکدیگر از ریداکس تولکیت استفاده شده که قابلیت مقایسه ۵ محصول را دارد . ضمنا برای استایل دهی صفحات از تالیویند سی اس اس استفاده شده است.",
+      "packages": [
+        "Next.js",
+        "GraphQL",
+        "Redux-Toolkit",
+        "Tailwind-CSS",
+        "Sanitize-Html",
+        "Responsive"
+      ],
+      "link": "تکمیل و دیپلوی نشده است"
+    },
+    {
+      "id": "3",
+      "name": "ArzDigital",
+      "img": [
+        "/Project/ArzDigital/ArzDigital01.png",
+        "/Project/ArzDigital/ArzDigital02.png",
+        "/Project/ArzDigital/ArzDigital03.png",
+        "/Project/ArzDigital/ArzDigital04.png",
+        "/Project/ArzDigital/ArzDigital05.png"
+      ],
+      "vid": "/Project/ArzDigital/ArzDigital.mp4",
+      "Title": "اطلاعات به روز ارزهای دیجیتال",
+      "description": "این یک پروژه فرانت اند برای نشان دادن قیمت به روز ارزهای دیجیتال می باشد . برای دریافت اطلاعات ارزها از Axios و Api استفاده شده است . در سمت فرانت اند صفحه بندی به گونه ای اعمال شده است که در هر صفحه اطلاعات ۱۰ ارز را نمایش دهد . همچنین با کلیک بر روی هر ارز به صفحه اطلاعات آن می رود که اطلاعات توسط پراپز به صفحه مقصد ارسال می شود.",
+      "packages": ["React.js", "Axios", "React-Router-Dom", "Responsive"],
+      "link": "https://arzdigital.iran.liara.run"
+    },
+    {
+      "id": "4",
+      "name": "Tamirgah",
+      "img": [
+        "/Project/Tamirgah/Tamirgah01.png",
+        "/Project/Tamirgah/Tamirgah02.png",
+        "/Project/Tamirgah/Tamirgah03.png",
+        "/Project/Tamirgah/Tamirgah04.png",
+        "/Project/Tamirgah/Tamirgah05.png",
+        "/Project/Tamirgah/Tamirgah06.png"
+      ],
+      "vid": "/Project/Tamirgah/Tamirgah.mp4",
+      "Title": "تعمیرگاه سیار لوازم خانگی",
+      "description": "این یک پروژه فرانت اند برای یک تعمیرگاه سیار لوازم خانگی است که با نکست جی اس ایجاد شده است . داده های قیمتی آن در یک فایل Json بوده و از آن دریافت می شوند.",
+      "packages": ["Next.js", "Json", "Responsive"],
+      "link": "https://zagros-service661.iran.liara.run"
+    },
+    {
+      "id": "5",
+      "name": "Namayandeh",
+      "img": [
+        "/Project/Namayandeh/Namayandeh01.png",
+        "/Project/Namayandeh/Namayandeh02.png",
+        "/Project/Namayandeh/Namayandeh03.png",
+        "/Project/Namayandeh/Namayandeh04.png",
+        "/Project/Namayandeh/Namayandeh05.png",
+        "/Project/Namayandeh/Namayandeh06.png"
+      ],
+      "vid": "/Project/Namayandeh/Namayandeh.mp4",
+      "Title": "مدیریت ستاد انتخاباتی",
+      "description": "این یک پروژه فول استک برای  مدیریت ستاد انتخاباتی یک نمایند است . در سمت فرانتد اند با نکست جی اس و در سمت بک اند با نود جی اس ایجاد شده است . بانک اطلاعاتی آن مای اس کیو ال بوده و برای مدیریت ورود از لوکال استوریج استفاده شده است . قابلیت فیلتر اطلاعات و جستجو در آن ها نیز در سمت فرانت اند وجود دارد . با ورود به پنل ادمین آن میتوان ، اعضا را اضافه ، حدف و آپدیت نمود.",
+      "packages": [
+        "Next.js",
+        "MySQL",
+        "Node.js",
+        "Express.js",
+        "Axios",
+        "Responsive"
+      ],
+      "link": "پروژه شخصی بوده و لینک در اختیار کارفرما می باشد"
+    },
+    {
+      "id": "6",
+      "name": "BlogGraphQL",
+      "img": [
+        "/Project/BlogGraphQL/BlogGraphQL01.png",
+        "/Project/BlogGraphQL/BlogGraphQL02.png",
+        "/Project/BlogGraphQL/BlogGraphQL03.png",
+        "/Project/BlogGraphQL/BlogGraphQL04.png",
+        "/Project/BlogGraphQL/BlogGraphQL05.png",
+        "/Project/BlogGraphQL/BlogGraphQL06.png",
+        "/Project/BlogGraphQL/BlogGraphQL07.png",
+        "/Project/BlogGraphQL/BlogGraphQL08.png"
+      ],
+      "vid": "/Project/BlogGraphQL/BlogGraphQL.mp4",
+      "Title": "وبلاگ",
+      "description": "این یک پروژه فول استک برای نوشتن بلاگ و مطلب است . در سمت فرانت اند از نکست جی اس و در سمت بک اند از گراف کیو ال استفاده شده است . برای نمایش اعلان ها از ری اکت توستیفای و برای استایل دهی صفحات از متریال یو آی استفاده شده است . همچنین قابلیت کامنت گذاری برای هر مقاله بصورت جداگانه وجود دارد . ضمنا برای مسیر دهی بین صفحات از ری اکت روتر دام استفاده شده است. صفحه ورود و صفحه رجیستر دارای کنترل نوع داده های ورودی برای هر فیلد می باشد و در صورت ورود اطلاعات اشتباه پیغام خطای مناسب را نمایش می دهد .",
+      "packages": [
+        "React.js",
+        "GraphQL",
+        "Material-Ui",
+        "Sanitize-Html",
+        "React-Toastify",
+        "Apolo",
+        "Responsive"
+      ],
+      "link": "https://wblog.iran.liara.run"
+    },
+    {
+      "id": "7",
+      "name": "ShoeStore",
+      "img": [
+        "/Project/ShoeStore/ShoeStore01.png",
+        "/Project/ShoeStore/ShoeStore02.png",
+        "/Project/ShoeStore/ShoeStore03.png",
+        "/Project/ShoeStore/ShoeStore04.png",
+        "/Project/ShoeStore/ShoeStore05.png",
+        "/Project/ShoeStore/ShoeStore06.png",
+        "/Project/ShoeStore/ShoeStore07.png",
+        "/Project/ShoeStore/ShoeStore08.png",
+        "/Project/ShoeStore/ShoeStore09.png"
+      ],
+      "vid": "/Project/ShoeStore/ShoeStore.mp4",
+      "Title": "فروشگاه کفش",
+      "description": "این یک پروژه فرانت اند برای یک فروشگاه کفش است که با نکست جی اس ایجاد شده است . برای استایل دهی صفحات از تایلویند سی اس اس و برای نمایش اعلانات از React-Toastify استفاده شده است . از ری اکت ریداکس برای مدیریت سبد خرید استفاده شده است . برای نمایش تصاویر محصولات از پکیج React-Multi-Carousel استفاده شده و پروژه کاملا ریسپانسیو می باشد . ضمنا از پکیج Framer-Motion برای انیمشین دادن به کامپاننتها و از پکیج React-Icons برای آیکون های موجود استفاده شده است .",
+      "packages": [
+        "Next.js",
+        "Tailwind CSS",
+        "React-Toastify",
+        "Redux-Toolkit",
+        "Framer-Motion",
+        "React-Multi-Carousel",
+        "React-Icons",
+        "Responsive"
+      ],
+      "link": "دیپلوی نشده است"
+    }
+  ]
+}

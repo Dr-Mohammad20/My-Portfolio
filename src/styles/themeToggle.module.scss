@@ -1,0 +1,28 @@
+@import 'variables';
+
+.container {
+  width: 48px;
+  height: 25px;
+  border: 1.5px solid $greenColor;
+  border-radius: 30px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2px;
+
+  position: relative;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.ball {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: $greenColor;
+}

@@ -1,0 +1,33 @@
+@import 'variables';
+@import 'mixins';
+
+.LoaderBlack {
+  @include Loader;
+  background: linear-gradient(0deg, $greenColor 25%, #111 60%, $greenColor 75%);
+}
+.LoaderBlack::after {
+  @include LoaderAfter;
+  background: #111;
+}
+
+.LoaderWhite {
+  @include Loader;
+  background: linear-gradient(
+    0deg,
+    $greenColor 25%,
+    white 60%,
+    $greenColor 75%
+  );
+}
+.LoaderWhite::after {
+  @include LoaderAfter;
+  background: white;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

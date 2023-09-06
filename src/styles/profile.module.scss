@@ -1,0 +1,678 @@
+@import 'variables';
+@import 'mixins';
+
+// *************** Public Style ****************
+.MainContainer {
+  width: 100svw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 80svw;
+  min-height: 70svh;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 350px;
+  @include ResponsiveMedia(verySmall) {
+    width: 100%;
+    gap: 100px;
+  }
+  @include ResponsiveMedia(small) {
+    width: 100%;
+    gap: 100px;
+  }
+  @include ResponsiveMedia(medium) {
+    width: 100%;
+    gap: 100px;
+  }
+}
+
+.TitleSection {
+  font-size: xx-large;
+  font-weight: bold;
+  line-height: 2rem;
+  @include ResponsiveMedia(verySmall) {
+    font-size: medium;
+  }
+}
+// Parent Style
+.TitleFont {
+  font-size: x-large;
+  font-weight: bold;
+  @include ResponsiveMedia(verySmall) {
+    font-size: medium;
+  }
+  @include ResponsiveMedia(small) {
+    font-size: large;
+  }
+  @include ResponsiveMedia(medium) {
+    font-size: large;
+  }
+}
+
+.Matn {
+  font-size: medium;
+  font-weight: bold;
+}
+// *************** Basic Information Style ****************
+.InformationContainer {
+  width: 80svw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.25rem;
+  padding-top: 3rem;
+  @include ResponsiveMedia(verySmall) {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    padding: 0 1rem;
+  }
+  @include ResponsiveMedia(small) {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    padding: 0 1rem;
+  }
+  @include ResponsiveMedia(medium) {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    text-align: start;
+    padding: 1rem 0;
+  }
+  @include ResponsiveMedia(large) {
+    width: 100%;
+    padding: 1rem 0;
+  }
+}
+
+.Title1 {
+  font-size: xx-large;
+  font-weight: bold;
+  line-height: 2rem;
+  padding: 0 2.5rem 0 2.5rem;
+  @include ResponsiveMedia(verySmall) {
+    font-size: large;
+    padding: 1rem;
+  }
+  @include ResponsiveMedia(small) {
+    font-size: x-large;
+    padding: 1rem;
+  }
+  @include ResponsiveMedia(medium) {
+    font-size: x-large;
+    padding: 0.5rem;
+  }
+}
+.Title2 {
+  @extend .TitleFont;
+  padding: 3rem 5rem 0 5rem;
+  @include ResponsiveMedia(verySmall) {
+    padding: 0.5rem;
+  }
+  @include ResponsiveMedia(small) {
+    padding: 1rem;
+  }
+  @include ResponsiveMedia(medium) {
+    padding: 3rem 1rem 0 5rem;
+  }
+  @include ResponsiveMedia(large) {
+    padding: 3rem 1rem 0 5rem;
+  }
+}
+
+.IContainer1 {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.25rem;
+  @include ResponsiveMedia(verySmall) {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    padding: 0.8rem;
+  }
+  @include ResponsiveMedia(small) {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+  @include ResponsiveMedia(medium) {
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    padding: 0.5rem;
+  }
+  @include ResponsiveMedia(large) {
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    padding: 0.5rem;
+  }
+}
+.ICENFirstDiv {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+.ICENOtherDiv {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding-top: 3rem;
+  @include ResponsiveMedia(small) {
+    gap: 0.5rem;
+    padding-top: 1.5rem;
+  }
+}
+
+.SocialIconDiv {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding-top: 3rem;
+  @include ResponsiveMedia(small) {
+    padding-top: 1.5rem;
+  }
+}
+.IContainer2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  gap: 200px;
+  div {
+    display: flex;
+    gap: 12px;
+    @include ResponsiveMedia(medium) {
+      gap: 5px;
+    }
+  }
+  @include ResponsiveMedia(verySmall) {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+  }
+  @include ResponsiveMedia(small) {
+    gap: 25px;
+  }
+  @include ResponsiveMedia(medium) {
+    gap: 90px;
+  }
+  @include ResponsiveMedia(large) {
+    gap: 120px;
+  }
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  &:hover {
+    animation: rotateIcons 1.5s forwards;
+    width: 30px;
+    height: 30px;
+  }
+}
+.Icon {
+  width: 25px;
+  height: 25px;
+  transition: color 0.5s ease;
+  &:hover {
+    animation: shakeIcon 1s forwards;
+    color: $greenColor;
+    cursor: pointer;
+  }
+}
+
+@keyframes rotateIcons {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes shakeIcon {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-2px);
+  }
+  40% {
+    transform: translateY(2px);
+  }
+  30% {
+    transform: translateY(-2px);
+  }
+  40% {
+    transform: translateY(2px);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+  60% {
+    transform: translateY(2px);
+  }
+  70% {
+    transform: translateY(-2px);
+  }
+  80% {
+    transform: translateY(2.4px);
+  }
+  90% {
+    transform: translateY(-2.4px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+// *************** Summery Style ****************
+
+.SummeryContainer {
+  width: 80svw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.25rem;
+  padding-top: 3rem;
+  border-top: 2px dashed $greenColor;
+  @include ResponsiveMedia(verySmall) {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  @include ResponsiveMedia(small) {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+}
+.MatnSummery {
+  @extend .Matn;
+  line-height: 5rem;
+  text-align: justify;
+  @include ResponsiveMedia(small) {
+    line-height: 3rem;
+  }
+}
+
+// ********** Skills Style **************
+.SkillsContainer {
+  width: 80svw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.25rem;
+  padding-top: 3rem;
+  border-top: 2px dashed $greenColor;
+  @include ResponsiveMedia(verySmall) {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  @include ResponsiveMedia(small) {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+.SkillContainer {
+  width: 100%;
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  @include ResponsiveMedia(small) {
+    width: 100%;
+  }
+}
+.Skill {
+  width: fit-content;
+  padding: 0.5rem;
+  font-weight: bold;
+  margin-top: 3rem;
+  border: 2px solid $greenColor;
+  border-radius: 10px;
+  @include gradientAnimation($greenColor, 0.8s);
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+// ********** Eduction Style **************
+.EductionContainer {
+  width: 80svw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.25rem;
+  padding-top: 3rem;
+  border-top: 2px dashed $greenColor;
+  @include ResponsiveMedia(verySmall) {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  @include ResponsiveMedia(small) {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  @include ResponsiveMedia(medium) {
+    width: 95%;
+  }
+}
+.MatnEduction {
+  @extend .Matn;
+  padding: 3rem 0 0 0;
+}
+
+.EductionItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+  @include ResponsiveMedia(verySmall) {
+    padding: 0 0.8rem;
+  }
+  @include ResponsiveMedia(small) {
+    padding: 0 1rem;
+  }
+  @include ResponsiveMedia(medium) {
+    padding: 0 1rem;
+  }
+}
+
+.EductionTitle {
+  @extend .TitleFont;
+  padding: 3rem 0 0 0;
+}
+
+.GPAContainer {
+  display: flex;
+  gap: 0.75rem;
+}
+// ********** Language Style **************
+.LanguageContainer {
+  width: 80svw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  padding-top: 3rem;
+  border-top: 2px dashed $greenColor;
+  @include ResponsiveMedia(verySmall) {
+    width: 100%;
+    text-align: center;
+    gap: 1rem 0;
+  }
+  @include ResponsiveMedia(small) {
+    width: 100%;
+    text-align: center;
+    gap: 1rem 0;
+  }
+}
+
+.LanguageNameContainer {
+  width: 100%;
+  padding: 0 5rem;
+}
+
+.LanguageSkillContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 3.5rem;
+  @include ResponsiveMedia(verySmall) {
+    flex-direction: column;
+    padding: 0;
+    row-gap: 2rem;
+  }
+  @include ResponsiveMedia(small) {
+    flex-direction: column;
+    padding: 0;
+    row-gap: 5rem;
+  }
+  @include ResponsiveMedia(medium) {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0;
+    row-gap: 5rem;
+  }
+  @include ResponsiveMedia(large) {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0;
+    row-gap: 5rem;
+  }
+}
+.LanguageSkill {
+  width: 25%;
+  flex-direction: column;
+  gap: 2.5rem;
+  @include ResponsiveMedia(medium) {
+    width: 40%;
+    gap: 0;
+  }
+  @include ResponsiveMedia(large) {
+    width: 40%;
+    gap: 0;
+  }
+}
+
+.LanguageSoccerContainer {
+  display: flex;
+  gap: 0.5rem;
+  padding-top: 1rem;
+  @include ResponsiveMedia(medium) {
+    justify-content: center;
+    align-items: center;
+  }
+  @include ResponsiveMedia(large) {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.LanguageSoccerOk {
+  width: 25px;
+  height: 15px;
+  background-color: $greenColor;
+  border-radius: 5px;
+}
+.LanguageSoccerNo {
+  width: 25px;
+  height: 15px;
+  border: 2px solid $greenColor;
+  border-radius: 5px;
+}
+
+.MatnLanguage {
+  @extend .Matn;
+  padding: 1rem 0;
+}
+
+// ********** Work Experience Style **************
+.WorksExperienceContainer {
+  width: 80svw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.25rem;
+  padding-top: 3rem;
+  border-top: 2px dashed $greenColor;
+  @include ResponsiveMedia(verySmall) {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  @include ResponsiveMedia(small) {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+.WorkFaNameContainer {
+  width: 100%;
+  padding: 0 5rem;
+  @include ResponsiveMedia(small) {
+    padding: 0;
+  }
+}
+
+.MatnFaWork {
+  @extend .Matn;
+  padding: 1rem 0.5rem 0 0.5rem;
+}
+.WorkItemContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 7rem 0 7rem;
+  @include ResponsiveMedia(verySmall) {
+    width: 100%;
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+  @include ResponsiveMedia(small) {
+    width: 100%;
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+  @include ResponsiveMedia(medium) {
+    width: 100%;
+    padding: 1rem 0;
+  }
+  @include ResponsiveMedia(large) {
+    width: 95%;
+    padding: 1rem 0;
+  }
+}
+.WorkEnNameContainer {
+  @extend .TitleFont;
+  padding: 1rem 0.5rem 0 0.5rem;
+}
+
+.WorkTitleFa {
+  @extend .TitleFont;
+  padding: 2rem 0;
+}
+
+// ********** Course Style **************
+.CourseContainer {
+  width: 80svw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 3rem 0;
+  border-top: 2px dashed $greenColor;
+  @include ResponsiveMedia(verySmall) {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  @include ResponsiveMedia(small) {
+    width: 100%;
+    text-align: center;
+  }
+  @include ResponsiveMedia(medium) {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+.CourseNameContainer {
+  width: 100%;
+  padding: 0 5rem;
+  @include ResponsiveMedia(small) {
+    padding: 0 3rem;
+  }
+  @include ResponsiveMedia(medium) {
+    padding: 0;
+  }
+}
+
+.CourseItemContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 5rem 0 5rem;
+  @include ResponsiveMedia(verySmall) {
+    padding: 1.25 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  @include ResponsiveMedia(small) {
+    padding: 1.25 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  @include ResponsiveMedia(large) {
+    padding: 1.25 0;
+    text-align: center;
+  }
+}
+
+.CourseTitle {
+  @extend .TitleFont;
+  padding: 2rem 0;
+}
+.MatnCourse {
+  @extend .Matn;
+  padding: 1rem 3rem;
+  display: flex;
+  gap: 0.75rem;
+  @include ResponsiveMedia(verySmall) {
+    width: 100%;
+    padding: 1rem 0;
+  }
+  @include ResponsiveMedia(small) {
+    width: 100%;
+    padding: 1rem 0;
+  }
+  @include ResponsiveMedia(large) {
+    width: 100%;
+    padding: 1rem 0;
+  }
+}

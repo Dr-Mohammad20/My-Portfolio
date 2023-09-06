@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'YEKAN';
+  src: url('../../public/Fonts/YekanBakh-Medium.ttf');
+  src: url('../../public/Fonts/YekanBakh-Medium.eot');
+  src: url('../../public/Fonts/YekanBakh-Medium.svg');
+  src: url('../../public/Fonts/YekanBakh-Medium.woff');
+}
+
+@font-face {
+  font-family: 'TITR';
+  src: url('../../public/Fonts/BTitrBold.ttf');
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+}
+
+a {
+  text-decoration: none;
+}
+
+.MainContainer {
+  min-width: 100svw;
+  min-height: 100svh;
+  max-height: fit-content;
+  overflow-x: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.theme {
+  transition: 1.2s all ease;
+}
+.dark {
+  background-color: #111;
+  color: #bbb;
+}
+.light {
+  background-color: white;
+  color: #111;
+}

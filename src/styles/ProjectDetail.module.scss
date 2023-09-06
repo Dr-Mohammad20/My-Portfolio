@@ -1,0 +1,30 @@
+@import 'variables';
+.ImageShow {
+  width: 90dvw;
+  height: 70dvh;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ImageHide {
+  display: none;
+}
+
+.BtnClose {
+  width: 30px;
+  height: 30px;
+  z-index: 2;
+  background-color: rgb(1, 1, 1, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $greenColor;
+}
+
+.Img {
+  border-radius: 10px;
+}

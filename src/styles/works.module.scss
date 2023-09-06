@@ -1,0 +1,136 @@
+@import 'mixins';
+
+.MainContainer {
+  width: 100svw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Items {
+  width: 450px;
+  height: 300px;
+  position: relative;
+  @include ResponsiveMedia(verySmall) {
+    width: 250px;
+    height: 150px;
+  }
+  @include ResponsiveMedia(small) {
+    width: 300px;
+    height: 200px;
+  }
+  @include ResponsiveMedia(medium) {
+    width: 350px;
+    height: 250px;
+  }
+  @include ResponsiveMedia(large) {
+    width: 350px;
+    height: 250px;
+  }
+}
+.Img {
+  width: 450px;
+  height: 350px;
+  transition: all 1s ease;
+  border-radius: 15px;
+  position: absolute;
+}
+.ImgContainer {
+  width: 400px;
+  height: 300px;
+  left: 25px;
+  top: 0;
+  border-radius: 15px;
+  transition: all 1s ease;
+  z-index: 1;
+  position: relative;
+  @include ResponsiveMedia(verySmall) {
+    width: 250px;
+    height: 150px;
+  }
+  @include ResponsiveMedia(small) {
+    width: 300px;
+    height: 200px;
+  }
+  @include ResponsiveMedia(medium) {
+    width: 350px;
+    height: 250px;
+  }
+  @include ResponsiveMedia(large) {
+    width: 350px;
+    height: 250px;
+  }
+}
+.Info {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(1, 1, 1, 0.7);
+  z-index: 0;
+  transition: all 1s ease;
+  padding: 10px;
+  border-radius: 15px;
+  overflow: hidden;
+  @include ResponsiveMedia(verySmall) {
+    width: 250px;
+    height: 150px;
+    padding: 5px;
+  }
+  @include ResponsiveMedia(small) {
+    width: 300px;
+    height: 200px;
+  }
+  @include ResponsiveMedia(medium) {
+    width: 350px;
+    height: 250px;
+  }
+  @include ResponsiveMedia(large) {
+    width: 350px;
+    height: 250px;
+  }
+}
+.MatnDiv {
+  display: none;
+  p {
+    line-height: 4rem;
+    @include ResponsiveMedia(verySmall) {
+      line-height: 1.5rem;
+    }
+    @include ResponsiveMedia(small) {
+      line-height: 2.5rem;
+    }
+    @include ResponsiveMedia(medium) {
+      line-height: 3.5rem;
+    }
+    @include ResponsiveMedia(large) {
+      line-height: 3.5rem;
+    }
+  }
+}
+.Items:hover .MatnDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+  text-align: justify;
+  padding: 25px;
+}
+.Items:hover .ImgContainer {
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+  opacity: 0.5;
+}
+
+.Items:hover .Info {
+  left: 50px;
+  top: 0px;
+  z-index: 1;
+}

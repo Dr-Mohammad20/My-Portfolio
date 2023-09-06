@@ -1,0 +1,39 @@
+@import 'mixins';
+@import 'variables';
+
+.MainContainer {
+  width: 100svw;
+}
+
+.container {
+  width: 100%;
+  height: 70svh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  @include respond-medium {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+}
+
+.ImgContainer {
+  width: 20%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  @include respond-medium {
+    width: 60%;
+    height: 60%;
+  }
+}
+
+.Img {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 15px;
+}

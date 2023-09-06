@@ -1,0 +1,46 @@
+@import 'variables';
+@import 'mixins';
+
+.MainContainer {
+  width: 100svw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 100%;
+  display: flex;
+  min-height: 10svh;
+  height: fit-content;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  border-top: 3px solid $greenColor;
+  @include respond-medium {
+    flex-direction: column-reverse;
+    gap: 20px;
+    padding: 15px 0;
+  }
+}
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.Icon {
+  width: 25px;
+  height: 25px;
+  transition: color 0.5s ease;
+  &:hover {
+    animation: rotateIcons 1.5s forwards;
+    cursor: pointer;
+    color: $greenColor;
+  }
+}
+
+@keyframes rotateIcons {
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "skills": [
+    {
+      "No": "1",
+      "Name": "HTML"
+    },
+    {
+      "No": "2",
+      "Name": "CSS/SCSS"
+    },
+    {
+      "No": "3",
+      "Name": "javascript"
+    },
+    {
+      "No": "4",
+      "Name": "React.js"
+    },
+    {
+      "No": "5",
+      "Name": "React Redux"
+    },
+    {
+      "No": "6",
+      "Name": "Redux toolkit"
+    },
+    {
+      "No": "7",
+      "Name": "Next.js"
+    },
+    {
+      "No": "8",
+      "Name": "Typescript"
+    },
+    {
+      "No": "9",
+      "Name": "Node.js"
+    },
+    {
+      "No": "10",
+      "Name": "Express.js"
+    },
+    {
+      "No": "11",
+      "Name": "Tailwind Css"
+    },
+    {
+      "No": "12",
+      "Name": "Material Ui"
+    },
+    {
+      "No": "13",
+      "Name": "Bootstrap"
+    },
+    {
+      "No": "14",
+      "Name": "MongoDb"
+    },
+    {
+      "No": "15",
+      "Name": "MySQL"
+    },
+    {
+      "No": "16",
+      "Name": "GraphQL"
+    },
+    {
+      "No": "17",
+      "Name": "GitHub"
+    },
+    {
+      "No": "18",
+      "Name": "Responsive Web Design"
+    },
+    {
+      "No": "19",
+      "Name": "Network"
+    },
+    {
+      "No": "20",
+      "Name": "Adobe Photoshop"
+    }
+  ]
+}

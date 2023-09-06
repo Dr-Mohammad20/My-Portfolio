@@ -1,0 +1,172 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "name": "BioGraphy",
+      "img": [
+        "/Project/BioGraphy/BioGraphy01.png",
+        "/Project/BioGraphy/BioGraphy02.png",
+        "/Project/BioGraphy/BioGraphy03.png",
+        "/Project/BioGraphy/BioGraphy04.png",
+        "/Project/BioGraphy/BioGraphy05.png",
+        "/Project/BioGraphy/BioGraphy06.png",
+        "/Project/BioGraphy/BioGraphy07.png",
+        "/Project/BioGraphy/BioGraphy08.png"
+      ],
+      "vid": "/Project/BioGraphy/BioGraphy.mp4",
+      "Title": "BioGraphy",
+      "description": "This is a full-stack project to show the resume and training courses of a professor, which has an admin panel to manage users and courses. It is done with React on the front-end side and NodeJS on the back-end side. Its database is MySQL. Context is also used to control user login. In addition, React Router Dam has been used for routing between pages.",
+      "packages": [
+        "React.js",
+        "MySQL",
+        "Node.js",
+        "Express.js",
+        "Axios",
+        "React-Context",
+        "React-Router-Dom",
+        "Responsive"
+      ],
+      "link": "https://dr-nahidmomeni.iran.liara.run"
+    },
+    {
+      "id": "2",
+      "name": "CarAudioShop",
+      "img": [
+        "/Project/CarAudioShop/CarAudioShop01.png",
+        "/Project/CarAudioShop/CarAudioShop02.png",
+        "/Project/CarAudioShop/CarAudioShop03.png",
+        "/Project/CarAudioShop/CarAudioShop04.png",
+        "/Project/CarAudioShop/CarAudioShop05.png",
+        "/Project/CarAudioShop/CarAudioShop06.png",
+        "/Project/CarAudioShop/CarAudioShop07.png",
+        "/Project/CarAudioShop/CarAudioShop08.png",
+        "/Project/CarAudioShop/CarAudioShop09.png"
+      ],
+      "vid": "/Project/CarAudioShop/CarAudioShop.mp4",
+      "Title": "Car Audio Shop",
+      "description": "This is a full-stack project for a car audio and video product store. This store does not sell online and only introduces its existing products. Next.js is used on the front-end side and GraphQL is used on the back-end side. To compare products with each other, Redux Toolkit is used, which has the ability to compare 5 products. In addition, Taliwind CSS has been used for styling the pages.",
+      "packages": [
+        "Next.js",
+        "GraphQL",
+        "Redux-Toolkit",
+        "Tailwind-CSS",
+        "Sanitize-Html",
+        "Responsive"
+      ],
+      "link": "Not completed and deployed"
+    },
+    {
+      "id": "3",
+      "name": "ArzDigital",
+      "img": [
+        "/Project/ArzDigital/ArzDigital01.png",
+        "/Project/ArzDigital/ArzDigital02.png",
+        "/Project/ArzDigital/ArzDigital03.png",
+        "/Project/ArzDigital/ArzDigital04.png",
+        "/Project/ArzDigital/ArzDigital05.png"
+      ],
+      "vid": "/Project/ArzDigital/ArzDigital.mp4",
+      "Title": "Crypto Currency",
+      "description": "This is a front-end project to show the updated price of digital currencies. Axios and API have been used to receive currency information. On the front-end side, pagination has been applied in such a way that information of 10 currencies is displayed on each page. Also, by clicking on any currency, it goes to its information page, which information is sent to the destination page by Props.",
+      "packages": ["React.js", "Axios", "React-Router-Dom", "Responsive"],
+      "link": "https://arzdigital.iran.liara.run"
+    },
+    {
+      "id": "4",
+      "name": "Tamirgah",
+      "img": [
+        "/Project/Tamirgah/Tamirgah01.png",
+        "/Project/Tamirgah/Tamirgah02.png",
+        "/Project/Tamirgah/Tamirgah03.png",
+        "/Project/Tamirgah/Tamirgah04.png",
+        "/Project/Tamirgah/Tamirgah05.png",
+        "/Project/Tamirgah/Tamirgah06.png"
+      ],
+      "vid": "/Project/Tamirgah/Tamirgah.mp4",
+      "Title": "Mobile home appliance repair shop",
+      "description": "This is a front-end project for a mobile home appliance repair shop created with Next.js. Its price data is in a json file and is received from it.",
+      "packages": ["Next.js", "Json", "Responsive"],
+      "link": "https://zagros-service661.iran.liara.run"
+    },
+    {
+      "id": "5",
+      "name": "Namayandeh",
+      "img": [
+        "/Project/Namayandeh/Namayandeh01.png",
+        "/Project/Namayandeh/Namayandeh02.png",
+        "/Project/Namayandeh/Namayandeh03.png",
+        "/Project/Namayandeh/Namayandeh04.png",
+        "/Project/Namayandeh/Namayandeh05.png",
+        "/Project/Namayandeh/Namayandeh06.png"
+      ],
+      "vid": "/Project/Namayandeh/Namayandeh.mp4",
+      "Title": "Election headquarters management",
+      "description": "This is a full-stack project to manage the electoral headquarters of a representative. It is created on the front-end side with Next.js and on the back-end side with Node.js. Its database is MySQL and local storage is used for login management. The ability to filter information and search them is also available on the front-end side. By entering the admin panel, you can add, delete and update members.",
+      "packages": [
+        "Next.js",
+        "MySQL",
+        "Node.js",
+        "Express.js",
+        "Axios",
+        "Responsive"
+      ],
+      "link": "The project is personal and the link is available to the employer"
+    },
+    {
+      "id": "6",
+      "name": "BlogGraphQL",
+      "img": [
+        "/Project/BlogGraphQL/BlogGraphQL01.png",
+        "/Project/BlogGraphQL/BlogGraphQL02.png",
+        "/Project/BlogGraphQL/BlogGraphQL03.png",
+        "/Project/BlogGraphQL/BlogGraphQL04.png",
+        "/Project/BlogGraphQL/BlogGraphQL05.png",
+        "/Project/BlogGraphQL/BlogGraphQL06.png",
+        "/Project/BlogGraphQL/BlogGraphQL07.png",
+        "/Project/BlogGraphQL/BlogGraphQL08.png"
+      ],
+      "vid": "/Project/BlogGraphQL/BlogGraphQL.mp4",
+      "Title": "Blog GraphQL",
+      "description": "This is a full-stack project for writing blogs and articles. Next.js is used on the front-end side and GraphQL is used on the back-end side. To display notifications, React Tostify is used and Material UI is used to style the pages. It is also possible to comment on each article separately. In addition, React Router Dam has been used for routing between pages. The entry page and the register page have control of the type of input data for each field and display the appropriate error message if wrong information is entered.",
+      "packages": [
+        "React.js",
+        "GraphQL",
+        "Material-Ui",
+        "Sanitize-Html",
+        "React-Toastify",
+        "Apolo",
+        "Responsive"
+      ],
+      "link": "https://wblog.iran.liara.run"
+    },
+    {
+      "id": "7",
+      "name": "ShoeStore",
+      "img": [
+        "/Project/ShoeStore/ShoeStore01.png",
+        "/Project/ShoeStore/ShoeStore02.png",
+        "/Project/ShoeStore/ShoeStore03.png",
+        "/Project/ShoeStore/ShoeStore04.png",
+        "/Project/ShoeStore/ShoeStore05.png",
+        "/Project/ShoeStore/ShoeStore06.png",
+        "/Project/ShoeStore/ShoeStore07.png",
+        "/Project/ShoeStore/ShoeStore08.png",
+        "/Project/ShoeStore/ShoeStore09.png"
+      ],
+      "vid": "/Project/ShoeStore/ShoeStore.mp4",
+      "Title": "Shoe Store",
+      "description": "This is a front-end project for a shoe store created with Next.js. Tailwind CSS has been used to style the pages and React Toastify has been used to display notifications. React-Redux is used to manage the shopping cart. The React-Multi-Carousel package is used to display product images and the project is fully responsive. In addition, the Framer-Motion package was used to animate the components and the React-Icons package was used for the existing icons.",
+      "packages": [
+        "Next.js",
+        "Tailwind-CSS",
+        "React-Toastify",
+        "Redux-Toolkit",
+        "Framer-Motion",
+        "React-Multi-Carousel",
+        "React-Icons",
+        "Responsive"
+      ],
+      "link": "Not Deploy Yet"
+    }
+  ]
+}
